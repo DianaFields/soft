@@ -1,0 +1,66 @@
+.hk-categoria {
+  padding-top: 3em; }
+  .hk-categoria div {
+    padding: 2em;
+    text-align: center; }
+  .hk-categoria h2 {
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    margin-top: 3.5em; }
+    .hk-categoria h2:after {
+      content: '\00a0';
+      width: 10%;
+      height: 2px;
+      background: #4A90E2;
+      position: absolute;
+      left: 45%;
+      bottom: -1em; }
+  .hk-categoria p {
+    font-size: 15px;
+    margin-top: 2em; }
+  .hk-categoria .hk-isotermico {
+    background: #ECECEC; }
+    .hk-categoria .hk-isotermico:before {
+      content: '\00a0';
+      width: 30%;
+      height: 60px;
+      position: absolute;
+      top: 1em;
+      bottom: 1em;
+      left: 35%;
+      background: url(../images/icons/icon-isotermicos.png) no-repeat 50%;
+      background-size: contain; }
+  .hk-categoria .hk-adiabatico {
+    background: #e3e3e3; }
+    .hk-categoria .hk-adiabatico:before {
+      content: '\00a0';
+      width: 30%;
+      height: 60px;
+      position: absolute;
+      top: 1em;
+      left: 35%;
+      background: url(../images/icons/icon-electrodos.png) no-repeat 50%;
+      background-size: contain; }
+  @media screen and (min-width: 1024px) {
+    .hk-categoria div {
+      height: 300px; } }
+  @media screen and (max-width: 1023px) {
+    .hk-categoria div {
+      height: auto; } }
+
+@media screen and (max-width: 1023px) {
+  #humiklima .panel-video {
+    clear: both; }
+  #humiklima .adiabaticos .descript h3 {
+    text-align: center; }
+  #humiklima #vdoHumiklima {
+    background: url(../images/videos/smoke.gif);
+    background-size: 100%;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; } }
+
+/*# sourceMappingURL=humiklima.css.map */

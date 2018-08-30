@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Softermia S.A. de C.V.</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+	<!-- Stock Video by <a rel="nofollow" href="http://www.videezy.com/">Videezy</a> -->
+</head>
+
+<body id="soft" onload="init()">
+<div class="gral-content">
+
+	<div id="load">
+		<div class="gear one">
+			<svg id="blue" viewbox="0 0 100 100" fill="#4FB0E5">
+				<path d="M97.6,55.7V44.3l-13.6-2.9c-0.8-3.3-2.1-6.4-3.9-9.3l7.6-11.7l-8-8L67.9,20c-2.9-1.7-6-3.1-9.3-3.9L55.7,2.4H44.3l-2.9,13.6      c-3.3,0.8-6.4,2.1-9.3,3.9l-11.7-7.6l-8,8L20,32.1c-1.7,2.9-3.1,6-3.9,9.3L2.4,44.3v11.4l13.6,2.9c0.8,3.3,2.1,6.4,3.9,9.3      l-7.6,11.7l8,8L32.1,80c2.9,1.7,6,3.1,9.3,3.9l2.9,13.6h11.4l2.9-13.6c3.3-0.8,6.4-2.1,9.3-3.9l11.7,7.6l8-8L80,67.9      c1.7-2.9,3.1-6,3.9-9.3L97.6,55.7z M50,65.6c-8.7,0-15.6-7-15.6-15.6s7-15.6,15.6-15.6s15.6,7,15.6,15.6S58.7,65.6,50,65.6z"></path>
+			</svg>
+		</div>
+		<div class="gear three">
+			<svg id="yellow" viewbox="0 0 100 100" fill="#05076B">
+				<path d="M97.6,55.7V44.3l-13.6-2.9c-0.8-3.3-2.1-6.4-3.9-9.3l7.6-11.7l-8-8L67.9,20c-2.9-1.7-6-3.1-9.3-3.9L55.7,2.4H44.3l-2.9,13.6      c-3.3,0.8-6.4,2.1-9.3,3.9l-11.7-7.6l-8,8L20,32.1c-1.7,2.9-3.1,6-3.9,9.3L2.4,44.3v11.4l13.6,2.9c0.8,3.3,2.1,6.4,3.9,9.3      l-7.6,11.7l8,8L32.1,80c2.9,1.7,6,3.1,9.3,3.9l2.9,13.6h11.4l2.9-13.6c3.3-0.8,6.4-2.1,9.3-3.9l11.7,7.6l8-8L80,67.9      c1.7-2.9,3.1-6,3.9-9.3L97.6,55.7z M50,65.6c-8.7,0-15.6-7-15.6-15.6s7-15.6,15.6-15.6s15.6,7,15.6,15.6S58.7,65.6,50,65.6z"></path>
+			</svg>
+		</div>
+		<p>Cargando...</p>
+</div>
+<div id="main-content" style="opacity: 0;">
+
+
+	<div id="header">
+		
+		<nav class="navbar navbar-fixed-top nav-expand">
+			<div class="menu-expand">
+				<a class="logo-head" href="../index.html">
+					<!-- <img src="images/logo-softermia.png"> -->
+				</a>
+<!-- 				<a class="imagotipo" href="../index.html">
+					<img src="http://dianafields.com.mx/softermia/images/imagotipo.png">
+				</a> -->
+				<div class="options" href="#formulario">
+
+
+					<a class="item page-scroll" href="#nosotros">Nosotros<span></span></a>
+					<div id="prod" class="dropdownProd" >
+						<div class="dropdow-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+							Productos
+						</div>
+						<ul class="dropdown-menu products">
+							<div class="col-lg-1 col-md-1"></div>
+							<li class="col-lg-5 col-md-5 col-xs-6" onclick="window.location='/microklima'">
+								<div class="logo-sub"><img src="images/microklima/logotipo_microklima.png">
+									<p>Sistemas a la medida para cumplir los requerimientos
+
+										específicos de una instalación</p>
+										<a href="microklima/index.html">Ver más</a>
+									</div>
+									<div class="image-prod"><img src="images/microklima/microklima_full.png"></div>
+								</li>
+
+
+								<div class="col-lg-1 col-md-1"></div>
+								<li class="col-lg-5 col-md-5 col-xs-6">
+									<div class="logo-sub"><img src="images/humiklima/logo-humiklima.png">
+										<p>Ideales para cualquier ambiente, desde museos, laboratorios de prueba,
+
+											aplicaciones domésticas e industriales</p>
+											<a href="humiklima/index.html">Ver más</a>
+										</div>
+										<div class="image-prod"><img src="images/humiklima/humiklima-cpy.png"></div>
+									</li>
+									<div class="col-lg-1"></div>
+								</ul>
+
+							</div>
+						<!-- Servicios -->
+						<div id="prod" class="dropdownService" >
+						<div class="dropdow-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+							Servicios
+						</div>
+						<div class="dropdown-menu services">
+						<div class="col-lg-4 ">
+							<li class="disenio"><div></div>Diseño y desarrollo de manejadoras de clima marca MicroKlima, específicas para ambientes de precisión</li>
+							<li class="desarrollo"> <div></div>Desarrollo de software para automatización de sistemas térmicos con gestión de alarmas, acorde a las necesidades específicas de cada cliente e industria</li>	
+						</div>
+						<div class="col-lg-4">
+							<li class="manufactura"><div></div>Diseño, manufactura e instalación de tableros de control para automatización de procesos de climatización y refrigeración</li>
+							<li class="instalacion"><div></div>Instalación y configuración de válvulas de expansión electrónicas con sistema de ahorro energético</li>
+						</div>
+						<div class="col-lg-4">
+							<li class="venta"><div></div>Venta de equipo y controladores de temperatura y humedad de la marca CAREL</li>
+							<li class="sistema"><div></div>Diseño e implementación de sistemas digitales de monitoreo y control de temperatura, humedad, aire acondicionado y refrigeración que requieran un alto grado de precisión</li>
+						</div>
+						
+							
+							
+						</div>
+
+							</div>
+							<!-- Servicios end -->
+					<a class="item page-scroll" href="#formulario">Contacto<span></span></a>
+
+
+						</div>
+						<!-- mobile -->
+						<div class="dropdown">
+							<div href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+
+							</div>
+							<ul class="dropdown-menu">
+								<li><a href="#nosotros">Nosotros</a></li>
+								<li><a href="#servicios">Servicios</a></li>
+								<li><a href="#formulario">Contacto</a></li>
+							</ul>
+						</div>
+						
+							</div>
+
+						</nav>
+					</div>
+					<!-- <div class="backtop" tooltip="Back To Top"></div> -->
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+
+							<!-- <li data-target="#myCarousel" data-slide-to="1"></li> -->
+						</ol>
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner">
+							<!-- SLIDER 1 -->
+							<div class="item slide-ref active slide-common">
+								<div class="desc descripcion">
+									<h2>Soluciones integrales</h2>
+									<p>En humidificación, climatización y aire acondicionado</p>
+								</div>
+								<!-- <div class="maquina" data-enllax-ratio=".2" data-enllax-type="foreground" data-enllax-direction="horizontal"></div> -->
+							</div>
+							<!-- SLIDER 2 -->
+							<div class="item slide-humiklima slide-common">
+								<div class="descripcion">
+									<h2>Desarrollo de software</h2>
+									<p>Sistemas térmicos y gestión de alarmas a la medida de las necesidades de cada cliente</p>
+									
+									</div>
+									<div class="video">
+										<div class="overlay"></div>
+										<video id="bgvid" autoplay="autoplay" muted="muted" preload="auto" loop>
+											<source src="images/videos/waterdrops.mp4" type="video/mp4">
+											</video>
+									</div>
+									<div class="hk-01" data-enllax-ratio=".5" data-enllax-type="foreground" data-enllax-direction="horizontal"></div>
+									<div class="hk-02" data-enllax-ratio="-.1" data-enllax-type="foreground"></div>
+								</div>
+
+								<!-- Left and right controls -->
+								<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+									<span class="glyphicon glyphicon-chevron-left"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="right carousel-control" href="#myCarousel" data-slide="next">
+									<span class="glyphicon glyphicon-chevron-right"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+							<!-- SUBMENU -->
+							<div class="submenu col-lg-12 col-sm-12">
+								<li class="item col-lg-3 col-md-3 col-sm-3 col-xs-12">
+									<div class="microklima" onclick="location.href='microklima/index.html'"><div class="logo"></div><span></span></div>
+								</li>
+								<li class="item col-lg-3 col-md-3 col-sm-3 col-xs-12">
+									<div class="humiklima" onclick="location.href='humiklima/index.html'"><div class="logo"></div><span></span></div>
+								</li>
+								<li class="item col-lg-3 col-md-3 col-sm-3 col-xs-12">
+									<div class="servicios" onclick="window.location='#servicios'"><div class="logo"></div><span></span></div>
+								</li> 
+								<li class="item col-lg-3 col-md-3 col-sm-3 col-xs-12 change">
+									<div class="galeria change" onclick="window.location='#galeria'"><div class="logo"></div><span></span></div>
+								</li>
+
+							</div>
+							<!-- SERVICIOS -->
+			<!-- 				<div id="servicios" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<h3>Servicios</h3>
+								<div class="servicio col-lg-4 col-md-4 col-sm-6 disenio">
+									<div></div>
+									<p>Diseño y desarrollo de manejadoras de clima marca MicroKlima, específicas para ambientes de precisión</p>
+								</div>
+								<div class="servicio col-lg-4 col-md-4 col-sm-6 desarrollo">
+									<div></div>
+									<p>Desarrollo de software para automatización de sistemas térmicos con gestión de alarmas, acorde a las necesidades específicas de cada cliente e industria</p>
+								</div>
+								<div class="servicio col-lg-4 col-md-4 col-sm-6 manufactura">
+									<div></div>
+									<p>Diseño, manufactura e instalación de tableros de control para automatización de procesos de climatización y refrigeración</p>
+								</div>
+
+								<div class="servicio col-lg-4 col-md-4 col-sm-6 instalacion">
+									<div></div>
+									<p>Instalación y configuración de válvulas de expansión electrónicas con sistema de ahorro energético</p>
+								</div>
+								<div class="servicio col-lg-4 col-md-4 col-sm-6 venta">
+									<div></div>
+									<p>Venta de equipo y controladores de temperatura y humedad de la marca CAREL</p>
+								</div>
+								<div class="servicio col-lg-4 col-md-4 col-sm-6 sistemas">
+									<div></div>
+									<p>Diseño e implementación de sistemas digitales de monitoreo y control de temperatura, humedad, aire acondicionado y refrigeración que requieran un alto grado de precisión</p>
+								</div>
+							</div> -->
+							<!-- NOSOTROS -->
+							<div id="nosotros">
+								<h3>Nosotros</h3>
+								<p>Softermia es una compañía que durante más de 25 años ofrece soluciones integrales en humidificación, climatización y refrigeración industrial con equipos de línea y especializados para atender problemáticas particulares de empresas, laboratorios, industrias, entre otros.   
+									Además, Softermia es distribuidor autorizado de instrumentos de
+									control digital, tableros y humidificadores CAREL</p>
+								</div>
+								<!-- HISTORIA -->
+								<div id="historia">
+									<h3>Historia</h3>
+									<div class="col-lg-12 col-md-12">
+										<div class="col-lg-5 col-md-1 col-sm-5"></div>
+										<p class="col-lg-6 col-md-10 col-sm-12 subtit col-xs-12">Empresa fundada en enero de 1991 en el Distrito Federal, actualmente Cd. de México,</p>
+										<div class="col-lg-1 col-md-2"></div>
+									</div>
+
+									<div class="col-lg-12 col-md-12">
+
+										<div class="col-lg-1 col-md-1"></div>
+										<div class="item imagen col-lg-5 col-md-5 col-sm-6 col-xs-12 wow fadeInLeftBig">
+											<img src="images/historia.jpg">
+										</div>
+										<div class="item descript col-lg-5 col-md-5 col-sm-7 col-xs-12">
+											<p>Con la finalidad de ofrecer un servicio nacional de calidad para dar soluciones de climatización específicas con equipos capaces de controlar humedad y temperatura respondiendo a especificaciones y necesidades de los clientes.
+											</p>
+											<p>Softermia surge al reconocer que muchos clientes con necesidades de climatización tenía que comprar equipos comerciales que más se acercaban a sus necesidades porque no había ningún proveedor nacional que ofreciera un servicio personalizado, por lo que esta empresa es una opción de satisfacer las necesidades específicas de los clientes.  
+											</p>
+											<p>A partir de 2015 Softermia extiende sus servicios con sedes en varios puntos de la República Mexicana, de tal manera que podamos estar más cerca de los clientes y atenderlos todavía mejor.</p>
+										</div>
+										<div class="col-lg-1 col-md-1"></div>
+									</div>
+
+								</div>
+								<div class="space-min"></div>
+								<!-- VALORES -->
+								<div id="valores">
+									<h3>Valores</h3>
+									<div class="col-lg-12 col-md-12">
+										<div class="col-lg-5 col-md-1 col-sm-5"></div>
+										<p class="col-lg-6 col-md-10 col-sm-12 subtit">Ejes que sirven de guía para todos nuestros empleados que construyen día con día una relación de confianza con nuestros clientes, proveedores y amigos.</p>
+										<div class="col-lg-1 col-md-1"></div>	
+									</div>
+									<div class="col-lg-12 col-sm-12">
+										<div class="col-lg-1 col-md-1"></div>
+										<div class="item descript col-lg-5 col-md-5 col-sm-6 col-xs-12">
+											<p>Contamos con un equipo de profesionales y técnicos especializados, honestos y confiables, atentos a resolver los problemas de nuestros clientes a la mayor brevedad posible.</p>
+											<p>Los empleados de Softermia están siempre preparados y dispuestos a atender las necesidades de nuestros clientes poniendo en práctica sus habilidades, conocimientos y acciones a fin de dar soluciones precisas.</p>
+											<p>La calidad es el objetivo primordial de nuestro trabajo. Importantes empresas públicas y privadas de diferentes sectores, así como, laboratorios de pruebas, depositan desde hace más de 25 años su confianza en los altos índices de calidad y precisión que Softermia les ofrece.</p>
+										</div>
+										<div class="item imagen col-lg-5 col-md-5 col-sm-7 col-xs-12 wow fadeInRightBig">
+											<img src="images/valores.jpg">
+										</div>
+										<div class="col-lg-1 col-md-1"></div>
+									</div>
+
+								</div>
+
+								<div class="space-min"></div>
+								<!-- GALERIA -->
+								<div id="galeria" class="galeria col-md-12 col-sm-12">
+									<h3>Algunos de nuestros proyectos</h3>
+									<!-- Proyecto 1 -->
+									<div class="col-lg-4 col-md-4 col-sm-6 project">
+										<a href="#modalFirst-1" class="portfolio-link" data-toggle="modal">
+											<div class="portfolio-hover">
+												<div class="portfolio-hover-content">
+													<p>Conoce más</p>
+												</div>
+											</div>
+											<img src="images/galeria/gallery-01.jpg"  alt="">
+										</a>
+										<div class="portfolio-caption">
+											<h4>Microklima instalación</h4>
+											<div class="text-muted">
+												<p>Estabilidad en la temperatura y humedad</p>
+											</div>
+										</div>
+									</div>
+									<!-- Proyecto 2 -->
+									<div class="col-lg-4 col-md-4 col-sm-6 project">
+										<a href="#modalFirst-2" class="portfolio-link" data-toggle="modal">
+											<div class="portfolio-hover">
+												<div class="portfolio-hover-content">
+													<p>Conoce más</p>
+												</div>
+											</div>
+											<img src="images/galeria/gallery-02.jpg"  alt="">
+										</a>
+										<div class="portfolio-caption">
+											<h4>Proyecto 2</h4>
+											<div class="text-muted">
+												<p>Estabilidad en la temperatura y humedad</p>
+											</div>
+										</div>
+									</div>
+									<!-- Proyecto 3 -->
+									<div class="col-lg-4 col-md-4 col-sm-6 project">
+										<a href="#modalFirst-3" class="portfolio-link" data-toggle="modal">
+											<div class="portfolio-hover">
+												<div class="portfolio-hover-content">
+													<p>Conoce más</p>
+												</div>
+											</div>
+
+											<div class="video-project">
+											<img src="images/videos/process-01.jpg"  alt="">
+												<video autoplay loop>
+													<source src="images/videos/process-01.mp4" type="video/mp4">
+													<!--   <source src="movie.ogg" type="video/ogg"> -->
+													Your browser does not support the video tag.
+											</video>
+											</div>
+											<!-- <img src="images/galeria/gallery-03.jpg"  alt=""> -->
+										</a>
+										<div class="portfolio-caption">
+											<h4>Proyecto 3</h4>
+											<div class="text-muted">
+												<p>Estabilidad en la temperatura y humedad</p>
+											</div>
+										</div>
+									</div>
+									<!-- MODAL 1 -->
+									<div class="portfolio-modal modal fade" id="modalFirst-1" tabindex="-1" role="dialog" aria-hidden="true">
+										<div class="modal-content">
+											<div class="close-modal" data-dismiss="modal">
+												<div class="lr">
+													<div class="rl">
+													</div>
+												</div>
+											</div>
+											<div class="container">
+												<div class="content-project">
+													<div class="modal-body">
+														<!-- Project Details Go Here -->
+														<img src="images/galeria/gallery-01.jpg"  alt="">
+														<div class="text">
+															<p>En las cámaras de enfriamiento donde se instala Microklima, se coloca un falso plafón de Tovicel con perforaciones para una mayor estabilidad en la temperatura y humedad, se considera la velocidad de aire dentro del protocolo de medición.</p>
+														</div>
+														<ul>
+															<li><span><strong>Cliente.</strong></span> Ejemplo de cliente</li>
+															<li><span><strong>Tecnología aplicada. </strong></span>Ejemplo de tecnología</li>
+														</ul>
+														<ul class="icons">
+															<li class="humi-icon">
+																<div class="tooltip-soft">Humificicación</div>
+															</li>
+															<li class="ref-icon">
+																<div class="tooltip-soft">Refrigeración</div>
+															</li>
+															<li class="fan-icon">
+																<div class="tooltip-soft">Ventilación</div>
+															</li>
+															<li class="pres-icon">
+																<div class="tooltip-soft">Presión</div>
+															</li>
+														</ul>
+														<button type="button" class="btn" data-dismiss="modal"> Cerrar</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- MODAL 2 -->
+									<div class="portfolio-modal modal fade" id="modalFirst-1" tabindex="-1" role="dialog" aria-hidden="true">
+										<div class="modal-content">
+											<div class="close-modal" data-dismiss="modal">
+												<div class="lr">
+													<div class="rl">
+													</div>
+												</div>
+											</div>
+											<div class="container">
+												<div class="content-project">
+													<div class="modal-body">
+														<!-- Project Details Go Here -->
+														<img src="images/galeria/gallery-02.jpg"  alt="">
+														<div class="text">
+															<p>En las cámaras de enfriamiento donde se instala Microklima, se coloca un falso plafón de Tovicel con perforaciones para una mayor estabilidad en la temperatura y humedad, se considera la velocidad de aire dentro del protocolo de medición.</p>
+														</div>
+														<ul>
+															<li><span><strong>Cliente.</strong></span> Ejemplo de cliente</li>
+															<li><span><strong>Tecnología aplicada. </strong></span>Ejemplo de tecnología</li>
+														</ul>
+														<ul class="icons">
+															<li class="humi-icon">
+																<div class="tooltip-soft">Humificicación</div>
+															</li>
+															<li class="ref-icon">
+																<div class="tooltip-soft">Refrigeración</div>
+															</li>
+															<li class="fan-icon">
+																<div class="tooltip-soft">Ventilación</div>
+															</li>
+															<li class="pres-icon">
+																<div class="tooltip-soft">Presión</div>
+															</li>
+														</ul>
+														<button type="button" class="btn" data-dismiss="modal"> Cerrar</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- MODAL 3 -->
+									<div class="portfolio-modal modal fade" id="modalFirst-1" tabindex="-1" role="dialog" aria-hidden="true">
+										<div class="modal-content">
+											<div class="close-modal" data-dismiss="modal">
+												<div class="lr">
+													<div class="rl">
+													</div>
+												</div>
+											</div>
+											<div class="container">
+												<div class="content-project">
+													<div class="modal-body">
+														<!-- Project Details Go Here -->
+														<img src="images/galeria/gallery-03.jpg"  alt="">
+														<div class="text">
+															<p>En las cámaras de enfriamiento donde se instala Microklima, se coloca un falso plafón de Tovicel con perforaciones para una mayor estabilidad en la temperatura y humedad, se considera la velocidad de aire dentro del protocolo de medición.</p>
+														</div>
+														<ul>
+															<li><span><strong>Cliente.</strong></span> Ejemplo de cliente</li>
+															<li><span><strong>Tecnología aplicada. </strong></span>Ejemplo de tecnología</li>
+														</ul>
+														<ul class="icons">
+															<li class="humi-icon">
+																<div class="tooltip-soft">Humificicación</div>
+															</li>
+															<li class="ref-icon">
+																<div class="tooltip-soft">Refrigeración</div>
+															</li>
+															<li class="fan-icon">
+																<div class="tooltip-soft">Ventilación</div>
+															</li>
+															<li class="pres-icon">
+																<div class="tooltip-soft">Presión</div>
+															</li>
+														</ul>
+														<button type="button" class="btn" data-dismiss="modal"> Cerrar</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+								<!-- CLIENTES -->
+				<div id="clientes">
+		<!-- 			<h3>Algunos de nuestros clientes son</h3>
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="col-lg-1 col-md-1 col-sm-1"></div>
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 logo avante">
+							<div></div>
+							<span class="text">
+								<p>Laboratorio Hilatura, Toluca. 
+									Laboratorio Jaspe, Toluca. 
+									Laboratorio Hilatura, Ixtlahuaca. 
+								</p>
+							</span>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 logo comex"><div></div>
+						<span class="text">
+							<p>Suministro e Instalación de un sistema de clima controlado y nivel de compuestos volátiles orgánicos (VOC), en su laboratorio de pruebas de pinturas. 
+							</p>
+						</span>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 logo danone">
+						<div></div>
+						<span class="text">
+							<p>Suministro, instalación, calibración y configuración de válvulas de expansión electrónicas para el almacén y centro de distribución central de DANONE (Tultitlán).</p>
+						</span>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 logo fonoteca">
+						<div></div>
+						<span class="text">
+							<p>Suministro e instalación de un sistema de control de clima para la conservación del acervo de la FONOTECA, consistente en tableros de control digital y eléctrico, válvulas de expansión electrónica y sistema de registro y gestión de alarmas Pl@ntvisor.</p>
+						</span>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 logo hussman">
+						<div></div>
+						<span class="text">
+							<p>Desarrollo, suministro e instalación del sistema de climatización para tres laboratorios de pruebas de eficiencia energética de refrigeradores, con sistema de adquisición de datos basado en LabView, sistema de variación de voltaje, y calibración de sensores (temperatura, humedad, presión, voltaje, potencia y corriente)  para su Centro de Desarrollo.</p>
+						</span>
+					</div>
+					<div class="col-lg-1 col-md-1 col-sm-1"></div>
+				</div> -->
+
+				<!-- <div class="col-lg-12 col-md-12 col-sm-12">
+					<div class="col-lg-1 col-md-1 col-sm-1"></div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 logo inah">
+						<div></div>
+						<span class="text">
+							<p>Control de la humedad y temperatura, en la sala de eventos temporales, así como el monitoreo de la humedad relativa y la temperatura, en cuatro zonas del recinto.</p>
+						</span>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 logo inba">
+						<div></div>
+						<span class="text">
+							<p>Diseño e instalación de tableros de control de temperatura y humedad, así como un sistema de humidificación, generando vapor estéril, producido por electrodos inmersos.
+								Instalación de un sistema de monitoreo y control de la temperatura y humedad con gestión de alarmas, en cuatro salas de exhibición.
+							</p>
+						</span>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 logo issste">
+						<div></div>
+						<span class="text">Desarrollo de tableros de control digital y eléctrico de siete cámaras frigoríficas para el ISSSTE ubicadas en su centro de acopio de medicamentos en San Fernando, Tlalpan, DF. Implementación del sistema de registro y supervisión Pl@ntvisor.</span>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 logo jc">
+						<div></div>
+						<span class="text">
+							<p>Suministro de un sistema de automatización de lavado y secado de recipientes.  Control para el proceso de esterilización de contenedores con registro impreso de las etapas del proceso.</p>
+						</span>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 logo labotec">
+						<div></div>
+						<span class="text">Suministro e Instalación de tres cámaras con clima de alta precisión (temperatura y humedad relativa) para laboratorios de pruebas NOM para aparatos eléctricos y electrónicos.
+							Implementación del sistema de registro y supervisión Pl@ntvisor
+						</span>
+					</div>
+					<div class="col-lg-1 col-md-1"></div>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<div class="col-lg-2 col-md-1 col-sm-1"></div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 logo pemex">
+						<div></div>
+						<span class="text">Desarrollo de tableros de control digital y eléctrico para una cámara de refrigeración  en la plataforma Cantarell de PEMEX “AKAL-C” .</span>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 logo pfizer">
+						<div></div>
+						<span class="text">Desarrollo de tableros de control digital de 3 cámaras frías, para su almacén de medicamentos en Toluca.
+							Suministro e instalación del sistema Pl@ntvisor para el registro y gestión de alarmas en su oficinas corporativas ubicadas en Santa Fé.
+						</span>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 logo profeco">
+						<div></div>
+						<span class="text">
+							<p>Laboratorios textiles. Suministro de un sistema de climatización en laboratorio textil.
+								Laboratorio de mecánica. Suministro de un sistema de climatización en laboratorio de mecánica.
+								Cámara de alta humedad y temperatura.
+								Implementación del sistema de registro y supervisión Pl@ntvisor para las tres cámaras.</p>
+							</span>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 col-xs-6 logo sony">
+							<div></div>
+							<span class="text">
+								<p>Suministro e Instalación de un sistema de humidificación en la zona de impresión gráfica, consistente en cuatro Humidisk 65 de Carel, para mantener una humedad relativa de 60% + 5%</p>
+							</span>
+						</div>
+						<div class="col-lg-2 col-md-2"></div>
+					</div>
+
+
+
+				</div> -->
+
+				<!-- FORMULARIO -->
+				<div id="formulario" class="col-lg-12 col-md-10 col-sm-10">
+				<div class="col-lg-8 col-md-1 col-sm-1 form-mail">
+				<div class="icon"></div>
+					<h3>Escríbenos para ponernos en contacto contigo</h3>
+					<div class="col-lg-1 col-md-1 col-sm-1"></div>
+					<div class="col-lg-5 col-md-5 col-sm-5">
+						<input type="text" name="" placeholder="Escribe tu nombre">
+						<input type="text" name="" placeholder="Ingresa tu correo electrónico">
+						<input type="text" name="" placeholder="Ingresa tu número telefónico">
+					</div>
+					<div class="col-lg-5 col-md-5 col-sm-5">
+						<textarea  placeholder="Déjanos un mensaje" id="mensaje" required="" data-validation-required-message="Déjanos un men saje"></textarea>
+					</div>
+					<div class="col-lg-1 col-md-1 col-sm-1"></div>
+					<div class="col-lg-12 col-md-12 col-sm-12">
+						<div class="col-lg-5 col-md-5 col-sm-5"></div>
+						<div class="col-lg-2 col-md-2 col-sm-2"><input class="enviar" type="submit" name="" placeholder="Enviar"></div>
+						<div class="col-lg-5 col-md-5 col-sm-5"></div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-1 col-sm-1 form-tel">
+				<div class="icon"></div>
+					<h3>O llámanos y con gusto te atenderemos</h3>
+					<ul>
+						<li>01 (55) 5606 3873</li>
+						<li>01 (55) 5666 7729</li>
+						<li>01 (55) 5666 3121</li>
+					</ul>
+				</div>
+					
+
+				</div>
+
+				<div class="col-lg-2 col-md-1 col-sm-1"></div>
+				<!-- FOOTER -->
+				<div class="map-content col-lg-12">
+					<div class="col-lg-12">
+						<div class="col-lg-2"></div>
+						<div class="col-lg-8"><h2>Encuéntranos</h2></div>
+						<div class="col-lg-2"></div>
+					</div>
+					<div class="col-lg-12">
+						<div class="col-lg-2"></div>
+						<div id="map" class="col-lg-8"></div>
+						<div class="col-lg-2"></div>
+					</div>
+
+					
+				</div>
+				
+				<div id="footer"></div>
+					
+</div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/lib.js"></script>
+
+    <script src="js/wow.min.js"></script>
+
+    <script src="js/jquery.enllax.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+				<script async defer
+				src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCGwNgYNPm44eWMr11vJsq4UduogvxfvI&callback=initMap">
+			</script>
+			<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+			<script type="text/javascript">
+				deskOnly();
+				// animateMenu();
+				loadEx();
+				backToTop();
+				
+				new WOW().init();
+
+				(function($){
+		            //Plugin activation
+		            $(window).enllax();
+		            
+		           // $('#some-id').enllax();
+
+		           // $('selector').enllax({
+		           //     type: 'background', // 'foreground'
+		           //     ratio: 0.5,
+		           //     direction: 'vertical' // 'horizontal'
+		           // });
+		       })(jQuery);
+
+		       function initMap() {
+		       	var uluru = {lat: 19.2971529, lng: -99.1568242};
+		       	var map = new google.maps.Map(document.getElementById('map'), {
+		       		zoom: 12,
+		       		center: uluru
+		       	});
+		       	var marker = new google.maps.Marker({
+		       		position: uluru,
+		       		map: map
+		       	});
+
+		       }
+		   </script>
+
+		</div>
+	</body>
+	</html>
